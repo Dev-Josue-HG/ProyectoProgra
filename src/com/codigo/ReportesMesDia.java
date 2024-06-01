@@ -338,12 +338,12 @@ public class ReportesMesDia {
                     String busquedaOcupacion = parteLinea2[6];
 
                     if (busquedaDpi.equals(dpiReportes)) {
-                        nombreEncontrado = busquedaNombre;
-                        apellidosEncontrado = busquedaApellidos;
-                        direccionEncontrada = busquedaDireccion;
-                        numTelEncontrado = busquedaNumeroTel;
-                        correoEncontrado = busquedaCorreo;
-                        ocupacionEncontrada = busquedaOcupacion;
+                        setNombreEncontrado(busquedaNombre);
+                        setApellidosEncontrado(busquedaApellidos);
+                        setDireccionEncontrada(busquedaDireccion);
+                        setNumTelEncontrado(busquedaNumeroTel);
+                        setCorreoEncontrado(busquedaCorreo);
+                        setOcupacionEncontrada(busquedaOcupacion);
                         verificarDpi = true;
                     } else {
                         verificarDpi = false;
@@ -359,7 +359,6 @@ public class ReportesMesDia {
                     System.out.println("Error al cerrar el archivo. " + e.getMessage());
                 }
             }
-
         }
 
         FileWriter escritor = null;
@@ -558,9 +557,9 @@ public class ReportesMesDia {
 
                 String[] parteLinea = linea.split(",");
 
-                String noCuentaBus = parteLinea[2];
+                String noCuenta = parteLinea[3];
 
-                setRutaArchivoRepDia(noCuentaBus);
+                setRutaArchivoRepDia(noCuenta);
 
                 buscarArchivoCuentaD();
 

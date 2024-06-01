@@ -1,0 +1,16 @@
+NUMERO DE CUENTA: 	5176892206
+TIPO DE CUENTA: 	null
+NUMERO DE DPI: 		null
+NOMBRE:  		null null
+DIRECCION: 		null
+TELEFONO: 		null
+CORREO: 		null
+OCUPACION: 		null
+
+
+= 	FECHA		 = 	DEPOSITO = 	RETIRO	 = 	SALDO	 =
+| 	2024-05-30	 = 	0.0	 | 	0.0	 | 	6000.0	 |
+| 	2024-06-01	 = 	670.0	 | 	0.0	 | 	670.0	 |
+
+
+SALDO ACTUAL: 670.0

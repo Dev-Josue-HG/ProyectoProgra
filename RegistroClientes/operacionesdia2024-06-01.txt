@@ -1,0 +1,16 @@
+REGISTROS DEL DÍA 2024-06-01
+
+| 	Fecha		 | 	Depositos	 | 	Restiros	 |
+
+
+ TOTAL DEPOSITADO: 	0.0
+ TOTAL RETIRADO: 	0.0
+REGISTROS DEL DÍA 2024-06-01
+
+| 	Fecha		 | 	Depositos	 | 	Restiros	 |
+| 	2024-06-01	 | 	1000.0		 | 	0.0		 |
+| 	2024-06-01	 | 	600.0		 | 	0.0		 |
+
+
+ TOTAL DEPOSITADO: 	1600.0
+ TOTAL RETIRADO: 	0.0

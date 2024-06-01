@@ -1,10 +1,7 @@
 
 package com.interfaz;
+import com.codigo.ReportesMesDia;
 
-/**
- *
- * @author jhosu
- */
 public class ReportEstadoCuenta extends javax.swing.JFrame {
 
     /**
@@ -14,6 +11,7 @@ public class ReportEstadoCuenta extends javax.swing.JFrame {
         initComponents();
         this.setLocationRelativeTo(null);
         txtReporteG.setVisible(false);
+        jLabelCampoR1.setVisible(false);
     }
 
     /**
@@ -152,18 +150,25 @@ public class ReportEstadoCuenta extends javax.swing.JFrame {
         Reportes abrirReportes = new Reportes();
         abrirReportes.setVisible(true);
         this.setVisible(false);
-        jLabelCampoR1.setVisible(false);
+//        jLabelCampoR1.setVisible(false);
         
         
     }//GEN-LAST:event_btnVolverActionPerformed
 
     private void btnReporteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnReporteActionPerformed
         
-        if(jtextNumCuenta.getText().trim().isEmpty()){
+        if(jtextNumCuenta.getText().isEmpty()){
             jLabelCampoR1.setVisible(true);
             
+        }else{
+            txtReporteG.setVisible(true);
+            ReportesMesDia reportDia = new ReportesMesDia();
+            String numCuenta = jtextNumCuenta.getText();
+            reportDia.setNumCuentaA(numCuenta);
+            reportDia.crearEstadoCuenta();
+            txtReporteG.setVisible(true);
+            
         }
-        txtReporteG.setVisible(true);
     }//GEN-LAST:event_btnReporteActionPerformed
 
     /**
