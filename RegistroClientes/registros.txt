@@ -1,0 +1,4 @@
+2806210780601,Josué Fernando,Hicho García,Guastatoya,45682456,josue@gmail.com,Programador,7000
+2807220790707,José Fernandez,Hichos Paz,Guastatoya,56567879,Jose@gmail.com,Diseñador,5000
+2807220790605,Axel,Herrera,Agua Caliente,45687890,axel25h@gmail.com,Estudiante,4000
+2908230800706,Eddy Adolfo,Castro Véliz,Sanarate,49701087,eddyAdolfo@gmail.com,Programador,5000
